@@ -2,7 +2,7 @@ import { searchImages } from './js/pixabay-api.js';
 import { updateGallery, showNoResultsMessage, showLoader, hideLoader } from './js/render-functions.js';
 
 
-  const form = document.querySelector('.form-search');
+  const form = document.querySelector('.form');
   const input = document.querySelector('.input-search');
   const gallery = document.querySelector('.gallery');
 
