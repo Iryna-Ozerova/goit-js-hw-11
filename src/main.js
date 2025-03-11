@@ -1,5 +1,5 @@
 import { searchImages } from './js/pixabay-api.js';
-import { updateGallery, showNoResultsMessage, showLoader, hideLoader } from './js/render-function.js';
+import { updateGallery, showNoResultsMessage, showLoader, hideLoader } from './js/render-functions.js';
 
 
   const form = document.querySelector('.form-search');
