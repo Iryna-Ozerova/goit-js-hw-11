@@ -35,7 +35,7 @@ import { updateGallery, showNoResultsMessage, showLoader, hideLoader } from './j
         console.error('Помилка сервера:', error.message);
       });
 
-    form.reset(); // Очистити поле введення після пошуку
+    form.reset(); 
   });
     
 

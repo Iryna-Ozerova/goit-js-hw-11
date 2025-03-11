@@ -4,7 +4,7 @@ import axios from 'axios';
 const API_KEY = '49186769-dabefba962826c776b77806d1';
 const BASE_URL = 'https://pixabay.com/api/';
 
-// Функція для отримання зображень
+// функція для отримання зображень
 export function searchImages(query) {
   return axios
     .get(BASE_URL, {
