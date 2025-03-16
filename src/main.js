@@ -1,5 +1,6 @@
 import { searchImages } from './js/pixabay-api.js';
 import { updateGallery, showNoResultsMessage } from './js/render-functions.js';
+import 'loaders.css/loaders.min.css';
 
 const form = document.querySelector('.form');
 const input = document.querySelector('.input-search');
@@ -11,7 +12,6 @@ loader.style.display = 'none';
 
 form.addEventListener('submit', function (event) {
   event.preventDefault();
-  loader.style.display = 'block';
 
   const query = input.value.trim();
   if (query === '') {
