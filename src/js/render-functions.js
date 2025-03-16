@@ -46,12 +46,4 @@ export function showNoResultsMessage(message) {
   });
 }
 
-// Функції для керування лоадером
-export function showLoader() {
-  document.querySelector('.loader').style.display = 'block';
-}
-
-export function hideLoader() {
-  document.querySelector('.loader').style.display = 'none';
-}
 
