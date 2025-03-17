@@ -225,6 +225,7 @@ img {
   box-sizing: border-box;
   position: relative;
   animation: pulse 1s linear infinite;
+  background: #495479;
 }
 .loader:after {
   content: '';
